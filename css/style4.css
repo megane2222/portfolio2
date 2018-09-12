@@ -293,20 +293,20 @@ nav {
 
 
 
-    .container{
-  width: 70%;
- margin-top: 50px;
- margin-bottom: 50px;
- overflow:auto
-
-
-    }
-
-
-    #myCarousel{
-      overflow:auto;
+    .carousel{
+      
+    display: flex;
+  
+  justify-content: center;
+  width: 75% ;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
     }
+
+    
+
 
 footer{
     width: 100%;
@@ -320,6 +320,8 @@ footer{
       }
       
       
+     
+
       
       footer h2{
       
@@ -396,6 +398,20 @@ footer{
         font-family: "Electrolize";
       }
       
+      .fab{
+        color: #ffffff;
+      }
+
+      .fa-phone{
+
+        color: #ffffff;
+      }
+      .fa-instagram{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+     
 
       @media screen and (max-width:800px) {
         .row {

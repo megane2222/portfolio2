@@ -394,7 +394,7 @@ width: 100%;
 
 footer{
 
-  padding-top: 50px;
+  padding-top: 500px;
   width: 100%;
   text-align: center;
   padding-top: 50px;
@@ -433,7 +433,7 @@ footer h2{
 .lien{
 height: 50%;
 width: 100%;
-padding-top:50px ;
+padding-top:150px ;
 background-color: #202020;
 justify-content: center;
 align-items: center;
@@ -479,6 +479,18 @@ border: #C4C4C4 solid;
 
 
 
+.fab{
+  color: #ffffff;
+}
+
+.fa-phone{
+font-size: 2.5rem;
+  color: #ffffff;
+}
+.fa-instagram{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 
 
