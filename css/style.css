@@ -184,6 +184,15 @@ margin:auto;
     
 }
 
+#hamburger a{
+  
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
 
 #hamburger, #hamburger-content {
   display: inline;
@@ -230,7 +239,7 @@ margin:auto;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(20, 20, 20, 0.212);
 }
 
 #hamburger-sidebar {
@@ -253,7 +262,7 @@ margin:auto;
 
 
 #hamburger-sidebar-header{
-  background-image: url(../images/wallaper.jpg) ;
+  background-image: url(../images/pexels-photo-1072179.jpeg) ;
 
   height: 128px;
 }
@@ -495,32 +504,6 @@ font-size: 2.5rem;
 
 
 
-@media screen and (max-width:1024px) {
-
-
-
-
-    
-    .page-section1{
-
-      background-image: url(images/cornestablette.png);
-      background-repeat: no-repeat;
-      background-position: center bottom  ; 
-    
-    
-    }
-
-  
-
-    footer{
-      
-      background-repeat: no-repeat;
-      background-size: 300% ;
-      background-position-x: 52%;
-    }
-   
-
-}
 
 @media screen and (max-width:768px){
  
@@ -578,18 +561,12 @@ font-size: 2.5rem;
       padding: 15px;
   
     }
-    .page-section1{
-
-      background-image: url(images/cornestablette.png);
-      background-repeat: no-repeat;
-      background-position: center bottom  ; 
-    
-    
-    }
+  
+  
     footer{
-      background-image: url(images/bas.png);
+      background-image: url(/images/rotary-691528_1280.jpg);
       background-repeat: no-repeat;
-      background-size: 300% ;
+      background-size: 200% ;
       background-position-x: 52%;
     }
 
@@ -608,7 +585,7 @@ font-size: 2.5rem;
 
   body{
     width: 100%;
-    height: 100;
+    height: 100%;
 
   }
 
@@ -616,13 +593,13 @@ font-size: 2.5rem;
 
   #photo{
     height: 100vh;
-    max-width:150px;
-    margin-top: 100px;
+    max-width:350px;
+    margin-top: 50px;
    
 
     display:grid;
  
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: repeat(8,1fr);
     grid-gap: 10px;
     
@@ -630,24 +607,28 @@ font-size: 2.5rem;
   }
 
 
-
-
-
-
-
-
  figure{
   overflow: hidden;
 
- }
-
-#logo {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
 }
+
+figure h1{
+  font-size: 2rem;
+ 
+}
+
+figure h3{
+  font-size: 2rem;
+}
+
+.blockImage img{
+  width: 20%;
+  min-width: 300px;
+  max-width: 500px ;
+}
+  
+
+
 
 
 .lien img {
@@ -664,19 +645,36 @@ font-size: 2.5rem;
   max-width:100%;
 
 }
-.page-section1{
 
-  background-image: url(images/cornestablette.png);
-  background-repeat: no-repeat;
-  background-position: center bottom  ; 
 
+#hamburger h2{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
 
 }
-footer{
-  background-image: url(images/bas.png);
-  background-repeat: no-repeat;
-  background-size: 300% ;
-  background-position-x: 52%;
+
+
+
+.fa-phone{
+  font-size: 2rem;
+  color: #ffffff;
+}
+.fa-instagram{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 2rem;
+}
+
+.fa-twitter{
+  font-size: 2rem;
+}
+
+
+.lien{
+  padding-top:50px ;
+
 }
 
 }

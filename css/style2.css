@@ -255,7 +255,7 @@ nav {
 }
 
 #hamburger-sidebar-header{
-  background-image: url(../images/wallaper.jpg) ;
+  background-image: url(../images/pexels-photo-1072179.jpeg) ;
 
   height: 128px;
 }
@@ -453,6 +453,32 @@ background-size: cover;
    max-width : 200px;
    max-height :150px;
   }
+
+  #hamburger h2{
+  
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  
+  }
+
+  .fa-phone{
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .fa-instagram{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2rem;
+  }
+  
+  .fa-twitter{
+    font-size: 2rem;
+  }
+  
+      
+    .mail  { margin-top: 10px;
+    margin-bottom: 10px;}
 }   
 
 
