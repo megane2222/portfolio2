@@ -151,22 +151,27 @@ margin:auto;
   #logo{
     width: 100%;
     height:100%;
+   
 
     display: flex;
 
     justify-content: center;
+    align-items: center;
 
   }
 
   #logo img{
-    max-width:100%;
+
+    max-width:50%;
+    margin:auto;
+
   }
 
 
 /*nav*/
 .page-section1{
 
-  background-image: url(/images/adventure-backpack-clouds-1390850.jpg);
+  background-image: url(/images/adventure-backpack-clouds-1390850.jpg)!important;
   background-size: cover;
 }
 
@@ -336,7 +341,7 @@ width: 100%;
 height:800px ;
 background-color: #EBE2E7;
 text-align: center;
-padding-top: 50px;
+padding-top: 1%;
 
 
 
@@ -349,7 +354,7 @@ padding-top: 50px;
 
  border: 0.4rem solid  #202020;
  border-radius: 7rem;
- padding: 10px;
+ padding: 1%;
  
 
 
@@ -364,10 +369,10 @@ display: inline;
 
 #photo{
 
-max-width:1300px;
+max-width:1200px;
 
 margin:auto;
-margin-top: 150px;
+margin-top: 5%;
 
 display:grid;
 grid-template-columns: 1fr 1fr 1fr ;
